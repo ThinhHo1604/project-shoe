@@ -12,6 +12,9 @@ mongoose.connect(process.env.MONGOOSEDB_RUL).then(()=>console.log("db connect"))
     err;    
 })
 
+const databaSeeder= require('./databaSeeder')
+//database Seeder router
+app.use('/api/seed',databaSeeder)
 app.listen(PORT ,() =>{
     console.log(`server listening on ${PORT}`);
 });
