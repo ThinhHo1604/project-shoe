@@ -1,0 +1,12 @@
+//test route
+// app.get("/api/products",(req,res)=>{
+//     res.json(products);    
+// });
+// app.get("/api/products/:id",(req,res)=>{
+//     const product =products.find((product)=>product.id=== req.params.id)
+//     res.json(product);    
+// })
+mongodb+srv://bun:bun160423@cluster0.swg8wmi.mongodb.net/React-Node-App
+https://github.com/ThinhHo1604/project-shoe.git
+git pull origin main
+
